@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.BACK{
+    height: 470px;
+    width: 415px;
+    border-radius: 10px;
+    background-color: #0e5d9a;
+    display: grid;
+    grid-template-columns: repeat(4,calc(400px/4));
+    grid-template-rows: 150px repeat(5,calc(300px/5));
+    padding: 20px;
+    row-gap: 5px;
+    column-gap: 5px;
+}
+.BACK button{
+ background-color: #aaa6dc;
+ border: 0px;
+ border-radius: 10px;
+ font-size: 35px;
+ font-family: 'Orbitron', sans-serif;
+}
+#RESULT{
+    font-family: 'Orbitron', sans-serif;
+    min-width: 415px;
+    min-height: 118px;
+    grid-column: 1 /span 4;
+    background-color: #225787;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: white;
+    font-size: 55px;
+}
+
+
+#EQUAL{
+    grid-column: 3 /span 2;
+    background-color: #ea7260;
+}
